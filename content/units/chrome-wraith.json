@@ -1,0 +1,27 @@
+{
+	"type": "flying",
+	"name": "Chrome Wraith",
+	"description": "i hate this",
+	"speed": 0.5,
+	"flying": true,
+    "accel": 0.5,
+	"health": 90,
+	"engineOffset": 5.5,
+	"range": 160,
+	"weapon": {
+		"name": "chrome-blaster",
+		"reload": 10,
+		"alternate": true,
+		"bullet":{
+            "type": "BasicBulletType",
+            "speed": 10,
+            "inaccuracy": 10,
+            "damage": 200,
+            "lifetime": 100,
+            "lightning": 3,
+            "lightningLength": 10,
+            "lightningDamage": 5,
+            
+            }
+	}
+}
